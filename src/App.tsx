@@ -1,13 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experiencie from "./components/Experience";
-import Feedbacks from "./components/Feedbacks";
+// import Experiencie from "./components/Experience";
+// import Feedbacks from "./components/Feedbacks";
 import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
-import StarsCanvas from "./components/StarsCanvas";
+// import StarsCanvas from "./components/StarsCanvas";
 import { LanguageProvider } from "./components/LanguageContext";
 
 const App = () => {

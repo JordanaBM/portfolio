@@ -21,8 +21,6 @@ import meta from "../assets/company/meta.png";
 import starbucks from "../assets/company/starbucks.png";
 import tesla from "../assets/company/tesla.png";
 import shopify from "../assets/company/shopify.png";
-import carrent from "../assets/carrent.png";
-import jobit from "../assets/jobit.png";
 
 export const navLinks = [
   {
