@@ -16,7 +16,7 @@ import tailwind from "../assets/tech/tailwind.png";
 import nodejs from "../assets/tech/nodejs.png";
 import git from "../assets/tech/git.png";
 import figma from "../assets/tech/figma.png";
-import graphQL from "../assets/tech/graphQL.png";
+import graphQL from "../assets/tech/GraphQL.png";
 import meta from "../assets/company/meta.png";
 import starbucks from "../assets/company/starbucks.png";
 import tesla from "../assets/company/tesla.png";
