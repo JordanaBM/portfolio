@@ -27,7 +27,6 @@ const ProjectCard: React.FC<Project> = ({
   name,
   description,
   tags,
-  image,
   videoSource,
   source_code_link,
 }) => {
