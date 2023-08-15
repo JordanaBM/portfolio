@@ -244,6 +244,7 @@ const projects = [
     ],
     image: feedback,
     source_code_link: "https://github.com/DenisseDB/Dynamic_Tech",
+    videoSource: "fJUxZG-MLRk",
   },
   {
     name: "Tramita la Cultura QRO",
@@ -269,6 +270,7 @@ const projects = [
     ],
     image: tramita,
     source_code_link: "https://github.com/iangg29/tc2007b",
+    videoSource: "EExaCqwm3kE",
   },
   {
     name: "Despegar de grupo asesores RAM",
@@ -290,6 +292,7 @@ const projects = [
     ],
     image: ram,
     source_code_link: "https://github.com/softwaredelta/GNP",
+    videoSource: "nwQRee4_O88",
   },
 ];
 
@@ -318,6 +321,7 @@ const projectsEs = [
     ],
     image: feedback,
     source_code_link: "https://github.com/DenisseDB/Dynamic_Tech",
+    videoSource: "fJUxZG-MLRk",
   },
   {
     name: "Tramita la Cultura QRO",
@@ -343,6 +347,7 @@ const projectsEs = [
     ],
     image: tramita,
     source_code_link: "https://github.com/iangg29/tc2007b",
+    videoSource: "EExaCqwm3kE",
   },
   {
     name: "Despegar de grupo asesores RAM",
@@ -364,6 +369,7 @@ const projectsEs = [
     ],
     image: ram,
     source_code_link: "https://github.com/softwaredelta/GNP",
+    videoSource: "nwQRee4_O88",
   },
 ];
 

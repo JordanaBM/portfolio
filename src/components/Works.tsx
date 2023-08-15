@@ -18,6 +18,7 @@ interface Project {
   description: string;
   tags: Tag[];
   image: string;
+  videoSource: string;
   source_code_link: string;
 }
 
@@ -27,37 +28,18 @@ const ProjectCard: React.FC<Project> = ({
   description,
   tags,
   image,
+  videoSource,
   source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div
-        // options={{
-        //   max: 45,
-        //   scale: 1,
-        //   speed: 450,
-        // }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-      >
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full relative">
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div>
+          <iframe
+            className="w-full h-full rounded-2xl"
+            src= {`https://www.youtube.com/embed/${videoSource}`}
+            allowFullScreen
+          ></iframe>
         </div>
 
         <div className="mt-5">
@@ -74,6 +56,18 @@ const ProjectCard: React.FC<Project> = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+        <div className="absolute flex justify-end inset-y-8 right-8">
+          <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          >
+            <img
+              src={github}
+              alt="source code"
+              className="w-1/2 h-1/2 object-contain"
+            />
+          </div>
         </div>
       </div>
     </motion.div>
